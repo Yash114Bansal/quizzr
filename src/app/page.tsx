@@ -1,12 +1,15 @@
 import Counter from "@/components/Counter";
 import quizzrs from "@/components/Home/quizzrs";
-import Createquizzr from "@/components/Home/Createquizzr";
+import Modal from "@/components/Modal";
+import CreatequizzrForm from "@/components/Home/CreatequizzrForm";
 
 export default function Home() {
   return (
     <div>
       <quizzrs />
-      <Createquizzr/>
+      <Modal btnTitle="Crate quizzr">
+        <CreatequizzrForm />
+      </Modal>
       <Counter />
     </div>
   );
