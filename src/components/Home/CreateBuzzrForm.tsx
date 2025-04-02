@@ -1,4 +1,4 @@
-import addquizzr from "./AddquizzrAction";
+import addquizzr from "../../actions/AddquizzrAction";
 import SubmitButton from "../SubmitButton";
 import InputField from "../InputField";
 
