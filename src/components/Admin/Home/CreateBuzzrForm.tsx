@@ -1,6 +1,6 @@
-import addquizzr from "../../actions/AddquizzrAction";
-import SubmitButton from "../SubmitButton";
-import InputField from "../InputField";
+import addquizzr from "../../../actions/AddquizzrAction";
+import SubmitButton from "../../SubmitButton";
+import InputField from "../../InputField";
 
 const CreatequizzrForm = () => {
 
