@@ -25,7 +25,7 @@ const addquizzr = async (formData: FormData) => {
         },
     });
 
-    revalidatePath("/");
+    revalidatePath("/","page");
 };
 
 export default addquizzr;
