@@ -5,7 +5,7 @@ import CreatequizzrForm from "@/components/Admin/Home/CreatequizzrForm";
 
 export default function Home() {
   return (
-    <div>
+    <div className="text-slate-200">
       <quizzrs />
       <Modal btnTitle="Create quizzr">
         <CreatequizzrForm />
