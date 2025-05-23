@@ -1,4 +1,3 @@
-import Counter from "@/components/Counter";
 import quizzrs from "@/components/Admin/Home/quizzrs";
 import Modal from "@/components/Modal";
 import CreatequizzrForm from "@/components/Admin/Home/CreatequizzrForm";
@@ -10,7 +9,6 @@ export default function Home() {
       <Modal btnTitle="Create quizzr">
         <CreatequizzrForm />
       </Modal>
-      <Counter />
     </div>
   );
 }
