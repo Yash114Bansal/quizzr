@@ -1,6 +1,4 @@
 import quizzrs from "@/components/Admin/Home/quizzrs";
-// import Modal from "@/components/Modal";
-// import CreatequizzrForm from "@/components/Admin/Home/CreatequizzrForm";
 import NavbarToggle from "@/components/Admin/NavbarToggle";
 import Navbar from "@/components/Admin/Navbar";
 
@@ -19,9 +17,6 @@ export default function Home() {
           </span>
         </div>
         <quizzrs />
-        {/* <Modal btnTitle="Create quizzr">
-          <CreatequizzrForm />
-        </Modal> */}
       </div>
     </div>
   );
