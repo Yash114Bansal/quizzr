@@ -27,8 +27,6 @@ const addquizzr = async (formData: FormData) => {
       },
     });
 
-    console.log(quiz)
-
     revalidatePath("/", "page");
     return { quizId: quiz.id };
 
