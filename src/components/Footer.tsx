@@ -7,32 +7,32 @@ import ThemeToggle from "./ThemeToggle"
 const Links = [
   {
     name: "Donate",
-    link: "/donate",
+    link: "#",
     icon: "/donate.svg",
   },
   {
     name: "Instagram",
-    link: "/instagram",
+    link: "https://www.instagram.com/_quizzr/",
     icon: "/instagram.svg",
   },
   {
     name: "Discord",
-    link: "/discord",
+    link: "#",
     icon: "/discord.svg",
   },
   {
     name: "Youtube",
-    link: "/youtube",
+    link: "https://www.youtube.com/@BuzznoldBuzzenegger",
     icon: "/youtube.svg",
   },
   {
     name: "Github",
-    link: "/github",
+    link: "https://github.com/yash114bansal/quizzr",
     icon: "/github.svg",
   },
   {
     name: "Software Incubator",
-    link: "/incubator",
+    link: "https://silive.in/",
     icon: "/incubator.svg",
   }
 ]
