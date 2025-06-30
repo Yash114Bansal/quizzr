@@ -27,7 +27,7 @@ const addquizzr = async (formData: FormData) => {
       },
     });
 
-    revalidatePath("/", "page");
+    revalidatePath("/admin", "page");
     return { quizId: quiz.id };
 
   } catch (err: any) {
