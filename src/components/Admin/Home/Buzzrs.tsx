@@ -24,10 +24,7 @@ const quizzrs = async () => {
     },
   });
 
-  return (
-
-    <Clientquizzr quizzes={quizzes} />
-  );
+  return <Clientquizzr quizzes={quizzes} />;
 };
 
 export default quizzrs;

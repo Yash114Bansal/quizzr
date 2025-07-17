@@ -17,6 +17,7 @@
 
 
 
+
 # About the project
 
 Welcome to quizzr, where learning meets excitement! Join live quiz battles, create personalized challenges, and connect with peers in real-time. quizzr offers an engaging learning experience for users of all levels. Create an account, customize your profile, and dive into the world of quizzes today. Get ready to buzz with excitement on quizzr!
@@ -48,16 +49,14 @@ Welcome to quizzr, where learning meets excitement! Join live quiz battles, crea
 ```CMD
 git clone https://github.com/yash114bansal/quizzr.git
 ```
+
 To run the server, you need to have NodeJS installed on your machine. If you don't have it installed, you can follow the instructions [here](https://nodejs.org/en//) to install it.
 
-
-
-2. Install the dependencies: 
+2. Install the dependencies:
 
 ```CMD
 npm install
 ```
-
 
 4. Setup .env file in base directory:
 
@@ -80,10 +79,10 @@ RATELIMIT="<ON/OFF>"
 ```
 
 5. Connect to the Server for websockets:
-    - Go through this: https://github.com/yash114bansal/quizzr-server
-    - Add the NEXT_PUBLIC_SOCKET_URL=http://localhost:[PORT] 
-    - PORT is where the socket server is running 
 
+   - Go through this: https://github.com/yash114bansal/quizzr-server
+   - Add the NEXT_PUBLIC_SOCKET_URL=http://localhost:[PORT]
+   - PORT is where the socket server is running
 
 6. Run on localhost:
 
@@ -91,8 +90,8 @@ RATELIMIT="<ON/OFF>"
 npm run dev
 ```
 
-
 You can access the endpoints from your web browser following this url
+
 ```url
 http://localhost:3000
 ```
