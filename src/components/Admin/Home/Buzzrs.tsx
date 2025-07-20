@@ -23,7 +23,6 @@ const quizzrs = async () => {
     },
   });
 
-
   return <Clientquizzr quizzes={quizzes} />;
 };
 
