@@ -1,7 +1,9 @@
-import quizzrs from "@/components/Admin/Home/quizzrs";
+import { Suspense } from "react";
 import NavbarToggle from "@/components/Admin/NavbarToggle";
 import Navbar from "@/components/Admin/Navbar";
 import GridListToggle from "@/components/Admin/GridListToggle";
+import quizzrs from "@/components/Admin/Home/quizzrs";
+import Loaderquizzrs from "@/components/Admin/Home/Loaderquizzrs";
 
 export default function Home() {
   return (
@@ -22,7 +24,9 @@ export default function Home() {
           </span>
           <GridListToggle />
         </div>
-        <quizzrs />
+        <Suspense fallback={<Loaderquizzrs cardCount={3} />}>
+          <quizzrs />
+        </Suspense>
       </div>
     </div>
   );
